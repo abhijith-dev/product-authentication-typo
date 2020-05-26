@@ -50,8 +50,8 @@ Quagga.init({
       Quagga.start();
   });
    Quagga.onDetected(function(data){
-    document.getElementById('result').innerHTML=data.codeResult.code;
-    return;
+    console.log(data.codeResult.code);
+    Quagga.stop();
    });
 
   function about_us() {
