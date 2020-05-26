@@ -21,10 +21,6 @@ function scrollToTop(scrollDuration) {
 function barcode(){
     $('.button-div').hide();
     $('.camera-div').show();
-    setTimeout(() => {
-        $('.camera-div').hide();
-        $('.spinner').show();
-    }, 5000);
 }
 Quagga.init({
     inputStream : {
